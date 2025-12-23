@@ -1,0 +1,35 @@
+{
+  "name": "wavemaker-storybook-doc-generator",
+  "version": "1.0.0",
+  "description": "Automated documentation generator for WaveMaker React Native components",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "generate": "node dist/index.js",
+    "generate:all": "node dist/index.js --all",
+    "generate:component": "node dist/index.js --component",
+    "dev": "tsx src/index.ts",
+    "watch": "tsc --watch"
+  },
+  "keywords": [
+    "documentation",
+    "storybook",
+    "wavemaker",
+    "react-native"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "glob": "^10.3.10",
+    "openai": "^4.73.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0"
+  }
+}

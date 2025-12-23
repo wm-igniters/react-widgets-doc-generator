@@ -1,0 +1,77 @@
+{
+  "componentName": "button",
+  "componentPath": "/Users/rajkumara_500341/Documents/WM-Story/storybook/react-widgets-storybook/src/components/form/button",
+  "category": "form",
+  "props": [
+    {
+      "name": "caption",
+      "type": "string",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "iconurl",
+      "type": "string",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "iconclass",
+      "type": "string",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "iconwidth",
+      "type": "string",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "iconheight",
+      "type": "string",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "iconmargin",
+      "type": "string",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "badgevalue",
+      "type": "string | number",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "shortcutkey",
+      "type": "string",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "type",
+      "type": "\"button\" | \"submit\" | \"reset\"",
+      "optional": true,
+      "inherited": false
+    },
+    {
+      "name": "children",
+      "type": "ReactNode",
+      "optional": true,
+      "inherited": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": [],
+  "baseClass": "BaseProps"
+}

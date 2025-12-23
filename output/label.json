@@ -1,0 +1,16 @@
+{
+  "componentName": "label",
+  "componentPath": "/Users/rajkumara_500341/Documents/WM-Story/storybook/react-widgets-storybook/src/components/basic/label",
+  "category": "basic",
+  "props": [
+    {
+      "name": "ownerState",
+      "type": "{\n    type?: ValidTagType;\n  }",
+      "optional": false,
+      "inherited": false
+    }
+  ],
+  "methods": [],
+  "events": [],
+  "styles": []
+}
